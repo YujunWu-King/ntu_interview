@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+.vux-header {
+    background-color: #9e1e2b !important;
+}
+
+.vux-header-back {
+    color: #fff;
+}
+
+.vux-header .vux-header-left, .vux-header .vux-header-right {
+    font-size: 1rem !important;
+}
+
+.vux-header .vux-header-left a, .vux-header .vux-header-left button, .vux-header .vux-header-right a, .vux-header .vux-header-right button {
+    color: ghostwhite !important;
+}
+
+.vux-header .vux-header-left .left-arrow:before {
+    border: solid ghostwhite ! important;
+    border-width: 1px 0 0 1px !important;
+}
+
+.weui-dialog__btn_primary {
+    color: #9e1e2b!important;
+}
+
+.weui-search-bar__cancel-btn {
+    color: #9e1e2b ! important;
+}
+
+.search_box .weui-search-bar {
+    padding: 12px 10px;
+}
+
+.range-quantity {
+    background-color: #9e1e2b ! important;
+}
+
+.range-bar {
+    position: absolute ! important;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+.vux-number-input {
+    font-size: 14px !important;
+}
+
+.weui-cell:before {
+    border-top: none !important;
+}
+
+.vux-number-selector svg {
+    fill: #FF9900 !important;
+}
+
+.vux-number-selector.vux-number-disabled svg {
+    fill: #ccc !important;
+}
+
+.vux-number-selector-sub {
+    padding: 4px 4px 2px 4px !important;
+}
+
+.vux-number-selector-plus {
+    padding: 3px 4px !important;
+}
+
+.vue-select .weui-cell__ft {
+    margin-right:46px;
+    font-size:14px;
+}
+
+.bz_slide_r select{
+    color:#666;
+}
+
+.bz_question .weui-cells_checkbox{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.bz_question .weui-cell{
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+.weui-cells_checkbox .weui-check:checked + .vux-checklist-icon-checked:before{
+    color: #9e1e2b!important;
+}
+
+.bz_question p{
+    color: #666;
+    font-size: 0.9em;
+}
+
+.bz_question .weui-cells:before{
+    border-top:none;
+}
+
+.range-min, .range-max{
+    font-size: 13px!important;
+}
+
+.weui-textarea {
+    display: block;
+    border: 0;
+    resize: none;
+    width: 100%;
+    color: inherit;
+    font-size: .9em;
+    line-height: inherit;
+    outline: 0;
+}
+
+.weui-textarea-counter {
+    color: #B2B2B2;
+    text-align: right;
+}
+
+@keyframes blink{
+    0%{opacity: 1;}
+    100%{opacity: 0;}
+}
+@-webkit-keyframes blink {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+@-moz-keyframes blink {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+@-ms-keyframes blink {
+    0% {opacity: 1; }
+    100% { opacity: 0;}
+}
+@-o-keyframes blink {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+.blink{
+    color: #dd4814;
+    animation: blink 1s linear infinite;
+    -webkit-animation: blink 1s linear infinite;
+    -moz-animation: blink 1s linear infinite;
+    -ms-animation: blink 1s linear infinite;
+    -o-animation: blink 1s linear infinite;
+}
